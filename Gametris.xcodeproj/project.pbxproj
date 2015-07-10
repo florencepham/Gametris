@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3992B3791B4DFE9D00DD817C /* 2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3992B3781B4DFE9D00DD817C /* 2DArray.swift */; };
+		39C999571B4A03A2006406A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C999561B4A03A2006406A5 /* AppDelegate.swift */; };
+		39C9995B1B4A03A2006406A5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9995A1B4A03A2006406A5 /* GameScene.swift */; };
+		39C9995D1B4A03A2006406A5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9995C1B4A03A2006406A5 /* GameViewController.swift */; };
+		39C999601B4A03A2006406A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C9995E1B4A03A2006406A5 /* Main.storyboard */; };
+		39C999651B4A03A2006406A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C999631B4A03A2006406A5 /* LaunchScreen.xib */; };
+		39C999711B4A03A2006406A5 /* GametrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C999701B4A03A2006406A5 /* GametrisTests.swift */; };
+		39C9997B1B4B4F3C006406A5 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9997A1B4B4F3C006406A5 /* Block.swift */; };
+		39C9997D1B4B4F55006406A5 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9997C1B4B4F55006406A5 /* Board.swift */; };
+		39C9997F1B4B4FB2006406A5 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9997E1B4B4FB2006406A5 /* Letter.swift */; };
+		39C999821B4B4FD2006406A5 /* Gametris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C999811B4B4FD2006406A5 /* Gametris.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C9996B1B4A03A2006406A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C999491B4A03A1006406A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C999501B4A03A1006406A5;
+			remoteInfo = Gametris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3992B3781B4DFE9D00DD817C /* 2DArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2DArray.swift; sourceTree = "<group>"; };
+		39C999511B4A03A2006406A5 /* Gametris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gametris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C999551B4A03A2006406A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C999561B4A03A2006406A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39C9995A1B4A03A2006406A5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		39C9995C1B4A03A2006406A5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		39C9995F1B4A03A2006406A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39C999641B4A03A2006406A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		39C9996A1B4A03A2006406A5 /* GametrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GametrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C9996F1B4A03A2006406A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C999701B4A03A2006406A5 /* GametrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GametrisTests.swift; sourceTree = "<group>"; };
+		39C9997A1B4B4F3C006406A5 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		39C9997C1B4B4F55006406A5 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		39C9997E1B4B4FB2006406A5 /* Letter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		39C999811B4B4FD2006406A5 /* Gametris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gametris.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C9994E1B4A03A1006406A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C999671B4A03A2006406A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C999481B4A03A1006406A5 = {
+			isa = PBXGroup;
+			children = (
+				39C999531B4A03A2006406A5 /* Gametris */,
+				39C9996D1B4A03A2006406A5 /* GametrisTests */,
+				39C999521B4A03A2006406A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C999521B4A03A2006406A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C999511B4A03A2006406A5 /* Gametris.app */,
+				39C9996A1B4A03A2006406A5 /* GametrisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C999531B4A03A2006406A5 /* Gametris */ = {
+			isa = PBXGroup;
+			children = (
+				39C999561B4A03A2006406A5 /* AppDelegate.swift */,
+				39C9995A1B4A03A2006406A5 /* GameScene.swift */,
+				39C9995C1B4A03A2006406A5 /* GameViewController.swift */,
+				39C9995E1B4A03A2006406A5 /* Main.storyboard */,
+				39C9997A1B4B4F3C006406A5 /* Block.swift */,
+				3992B3781B4DFE9D00DD817C /* 2DArray.swift */,
+				39C9997C1B4B4F55006406A5 /* Board.swift */,
+				39C999811B4B4FD2006406A5 /* Gametris.swift */,
+				39C9997E1B4B4FB2006406A5 /* Letter.swift */,
+				39C999631B4A03A2006406A5 /* LaunchScreen.xib */,
+				39C999541B4A03A2006406A5 /* Supporting Files */,
+			);
+			path = Gametris;
+			sourceTree = "<group>";
+		};
+		39C999541B4A03A2006406A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39C999551B4A03A2006406A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39C9996D1B4A03A2006406A5 /* GametrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C999701B4A03A2006406A5 /* GametrisTests.swift */,
+				39C9996E1B4A03A2006406A5 /* Supporting Files */,
+			);
+			path = GametrisTests;
+			sourceTree = "<group>";
+		};
+		39C9996E1B4A03A2006406A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39C9996F1B4A03A2006406A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C999501B4A03A1006406A5 /* Gametris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C999741B4A03A2006406A5 /* Build configuration list for PBXNativeTarget "Gametris" */;
+			buildPhases = (
+				39C9994D1B4A03A1006406A5 /* Sources */,
+				39C9994E1B4A03A1006406A5 /* Frameworks */,
+				39C9994F1B4A03A1006406A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gametris;
+			productName = Gametris;
+			productReference = 39C999511B4A03A2006406A5 /* Gametris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C999691B4A03A2006406A5 /* GametrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C999771B4A03A2006406A5 /* Build configuration list for PBXNativeTarget "GametrisTests" */;
+			buildPhases = (
+				39C999661B4A03A2006406A5 /* Sources */,
+				39C999671B4A03A2006406A5 /* Frameworks */,
+				39C999681B4A03A2006406A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C9996C1B4A03A2006406A5 /* PBXTargetDependency */,
+			);
+			name = GametrisTests;
+			productName = GametrisTests;
+			productReference = 39C9996A1B4A03A2006406A5 /* GametrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C999491B4A03A1006406A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Asterisk;
+				TargetAttributes = {
+					39C999501B4A03A1006406A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					39C999691B4A03A2006406A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 39C999501B4A03A1006406A5;
+					};
+				};
+			};
+			buildConfigurationList = 39C9994C1B4A03A1006406A5 /* Build configuration list for PBXProject "Gametris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39C999481B4A03A1006406A5;
+			productRefGroup = 39C999521B4A03A2006406A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C999501B4A03A1006406A5 /* Gametris */,
+				39C999691B4A03A2006406A5 /* GametrisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C9994F1B4A03A1006406A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C999651B4A03A2006406A5 /* LaunchScreen.xib in Resources */,
+				39C999601B4A03A2006406A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C999681B4A03A2006406A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C9994D1B4A03A1006406A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C9995B1B4A03A2006406A5 /* GameScene.swift in Sources */,
+				39C9997B1B4B4F3C006406A5 /* Block.swift in Sources */,
+				39C9997D1B4B4F55006406A5 /* Board.swift in Sources */,
+				39C9997F1B4B4FB2006406A5 /* Letter.swift in Sources */,
+				39C999821B4B4FD2006406A5 /* Gametris.swift in Sources */,
+				3992B3791B4DFE9D00DD817C /* 2DArray.swift in Sources */,
+				39C9995D1B4A03A2006406A5 /* GameViewController.swift in Sources */,
+				39C999571B4A03A2006406A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C999661B4A03A2006406A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C999711B4A03A2006406A5 /* GametrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39C9996C1B4A03A2006406A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C999501B4A03A1006406A5 /* Gametris */;
+			targetProxy = 39C9996B1B4A03A2006406A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39C9995E1B4A03A2006406A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C9995F1B4A03A2006406A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39C999631B4A03A2006406A5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C999641B4A03A2006406A5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39C999721B4A03A2006406A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39C999731B4A03A2006406A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C999751B4A03A2006406A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gametris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39C999761B4A03A2006406A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gametris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39C999781B4A03A2006406A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GametrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gametris.app/Gametris";
+			};
+			name = Debug;
+		};
+		39C999791B4A03A2006406A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GametrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gametris.app/Gametris";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C9994C1B4A03A1006406A5 /* Build configuration list for PBXProject "Gametris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C999721B4A03A2006406A5 /* Debug */,
+				39C999731B4A03A2006406A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C999741B4A03A2006406A5 /* Build configuration list for PBXNativeTarget "Gametris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C999751B4A03A2006406A5 /* Debug */,
+				39C999761B4A03A2006406A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C999771B4A03A2006406A5 /* Build configuration list for PBXNativeTarget "GametrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C999781B4A03A2006406A5 /* Debug */,
+				39C999791B4A03A2006406A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C999491B4A03A1006406A5 /* Project object */;
+}
