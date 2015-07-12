@@ -1,16 +1,16 @@
 //
-//  GameViewController.swift
+//  ScoreViewController.swift
 //  Gametris
 
 
 import UIKit
 import SpriteKit
 
-class GameViewController: UIViewController {
-
+class ScoreViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.
             let skView = self.view as! SKView

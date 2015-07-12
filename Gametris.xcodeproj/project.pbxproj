@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		399226E51B52C4C8001999E5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399226E41B52C4C8001999E5 /* MenuViewController.swift */; };
 		3992B3791B4DFE9D00DD817C /* 2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3992B3781B4DFE9D00DD817C /* 2DArray.swift */; };
 		39C999571B4A03A2006406A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C999561B4A03A2006406A5 /* AppDelegate.swift */; };
 		39C9995B1B4A03A2006406A5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9995A1B4A03A2006406A5 /* GameScene.swift */; };
@@ -18,6 +19,9 @@
 		39C9997D1B4B4F55006406A5 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9997C1B4B4F55006406A5 /* Board.swift */; };
 		39C9997F1B4B4FB2006406A5 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9997E1B4B4FB2006406A5 /* Letter.swift */; };
 		39C999821B4B4FD2006406A5 /* Gametris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C999811B4B4FD2006406A5 /* Gametris.swift */; };
+		39E642321B52D19600176EFE /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E642311B52D19600176EFE /* ScoreViewController.swift */; };
+		39E642341B52D26B00176EFE /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E642331B52D26B00176EFE /* GameOverViewController.swift */; };
+		39E642361B52D3B100176EFE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E642351B52D3B100176EFE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		399226E41B52C4C8001999E5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3992B3781B4DFE9D00DD817C /* 2DArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2DArray.swift; sourceTree = "<group>"; };
 		39C999511B4A03A2006406A5 /* Gametris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gametris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C999551B4A03A2006406A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +51,9 @@
 		39C9997C1B4B4F55006406A5 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		39C9997E1B4B4FB2006406A5 /* Letter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 		39C999811B4B4FD2006406A5 /* Gametris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gametris.swift; sourceTree = "<group>"; };
+		39E642311B52D19600176EFE /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		39E642331B52D26B00176EFE /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		39E642351B52D3B100176EFE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +97,11 @@
 			children = (
 				39C999561B4A03A2006406A5 /* AppDelegate.swift */,
 				39C9995A1B4A03A2006406A5 /* GameScene.swift */,
+				399226E41B52C4C8001999E5 /* MenuViewController.swift */,
 				39C9995C1B4A03A2006406A5 /* GameViewController.swift */,
+				39E642311B52D19600176EFE /* ScoreViewController.swift */,
+				39E642331B52D26B00176EFE /* GameOverViewController.swift */,
+				39E642351B52D3B100176EFE /* SettingsViewController.swift */,
 				39C9995E1B4A03A2006406A5 /* Main.storyboard */,
 				39C9997A1B4B4F3C006406A5 /* Block.swift */,
 				3992B3781B4DFE9D00DD817C /* 2DArray.swift */,
@@ -230,10 +242,14 @@
 				39C9997B1B4B4F3C006406A5 /* Block.swift in Sources */,
 				39C9997D1B4B4F55006406A5 /* Board.swift in Sources */,
 				39C9997F1B4B4FB2006406A5 /* Letter.swift in Sources */,
+				399226E51B52C4C8001999E5 /* MenuViewController.swift in Sources */,
 				39C999821B4B4FD2006406A5 /* Gametris.swift in Sources */,
 				3992B3791B4DFE9D00DD817C /* 2DArray.swift in Sources */,
+				39E642341B52D26B00176EFE /* GameOverViewController.swift in Sources */,
+				39E642321B52D19600176EFE /* ScoreViewController.swift in Sources */,
 				39C9995D1B4A03A2006406A5 /* GameViewController.swift in Sources */,
 				39C999571B4A03A2006406A5 /* AppDelegate.swift in Sources */,
+				39E642361B52D3B100176EFE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

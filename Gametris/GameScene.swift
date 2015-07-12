@@ -1,10 +1,7 @@
 //
 //  GameScene.swift
 //  Gametris
-//
-//  Created by Nga Pham on 7/5/15.
-//  Copyright (c) 2015 Asterisk. All rights reserved.
-//
+
 
 import SpriteKit
 
@@ -12,9 +9,9 @@ class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        myLabel.text = "Hello, World!"
+        myLabel.fontSize = 65
+        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
         
         self.addChild(myLabel)
     }
@@ -34,7 +31,7 @@ class GameScene: SKScene {
             //let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
             
             
-            sprite.runAction(SKAction.repeatActionForever(action))
+            //sprite.runAction(SKAction.repeatActionForever(action))
             
             self.addChild(sprite)
         }

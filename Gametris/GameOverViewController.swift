@@ -1,16 +1,16 @@
 //
-//  GameViewController.swift
+//  GameOverViewController.swift
 //  Gametris
 
 
 import UIKit
 import SpriteKit
 
-class GameViewController: UIViewController {
-
+class GameOverViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.
             let skView = self.view as! SKView
@@ -26,4 +26,5 @@ class GameViewController: UIViewController {
             skView.presentScene(scene)
         }
     }
+    
 }
