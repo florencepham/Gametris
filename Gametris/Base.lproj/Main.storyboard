@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4sW-dt-EmW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4sW-dt-EmW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -112,34 +112,15 @@
             </objects>
             <point key="canvasLocation" x="2849.5" y="-323.5"/>
         </scene>
-        <!--View-->
-        <scene sceneID="bSy-CL-s17">
-            <objects>
-                <viewController storyboardIdentifier="gameOver" id="6LL-Em-0PX" customClass="SKView" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xMB-Sh-UEm"/>
-                        <viewControllerLayoutGuide type="bottom" id="vaQ-hM-fsO"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QzV-Gg-nYg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KpB-EQ-r6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3625.5" y="-63"/>
-        </scene>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="n4d-cG-uFR">
             <objects>
-                <viewController id="hWx-s7-RrD" sceneMemberID="viewController">
+                <viewController id="hWx-s7-RrD" customClass="GameViewController" customModule="Gametris" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uJH-5n-WIu"/>
                         <viewControllerLayoutGuide type="bottom" id="P1p-0D-GO6"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wBH-BE-6N8">
+                    <view key="view" contentMode="scaleToFill" id="wBH-BE-6N8" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -154,13 +135,22 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="cGp-iT-U36" appends="YES" id="sNK-a2-nJF"/>
+                        </connections>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDg-O0-X10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="cGp-iT-U36">
+                    <connections>
+                        <action selector="didPan:" destination="hWx-s7-RrD" id="318-m6-ZJh"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2830.5" y="453.375"/>
+            <point key="canvasLocation" x="3278.5" y="356.5"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
