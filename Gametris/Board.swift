@@ -10,13 +10,13 @@ import Foundation
 
 class Board {
     
-    var table = Array<Array<Tile?>>()
+    var table = Array<Array<Tile>>()
         
     init() {
         for x in 0..<NumColumns {
-            table.append(Array<Tile?>())
+            table.append(Array<Tile>())
             for y in 0..<NumRows {
-                table[x].append(nil)
+                table[x].append(Tile(letter: " "))
             }
         }
     }

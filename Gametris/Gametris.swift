@@ -41,15 +41,18 @@ class Gametris {
     }
     
     func beginGame() {
+        println("beginGame")
         delegate.gameDidBegin(self)
     }
     
     func nextMultile() -> Multile {
+        println("nextMultile")
         newMultile = OneTile()
         return newMultile
     }
     
     func moveMultile(x: Int) {
+        println("moveMultile")
         for tile in newMultile.tiles {
             tile.x = min(max(x, 0), 8)
         }
@@ -59,10 +62,11 @@ class Gametris {
     func crash() {} //TODO: rename
     
     func landMultile() {
+        println("landMultile")
         for tile in newMultile.tiles {
             let foundTile = find(board.table[tile.x]) {
                 (tile: Tile) -> Bool in
-                return tile.letter == " "
+                tile.letter == " "
             }
 
             let landY = (foundTile != nil) ? foundTile!.y : 0
@@ -78,6 +82,7 @@ class Gametris {
 }
 
 func find<T>(arr: Array<T>, pred: T -> Bool) -> T? {
+    println("Find")
     for i in 0..<arr.count {
         if pred(arr[i]) { return arr[i] }
     }

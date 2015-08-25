@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B0A9D89C-70F0-4140-B260-696F0171E5B6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Gametris</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>707A45C0EF41A5E8ACCFB3A0E98649E2223F8B98</key>
 		<string>https://github.com/npham02/Gametris.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Gametris.xcodeproj</string>
+	<string>Gametris.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>707A45C0EF41A5E8ACCFB3A0E98649E2223F8B98</key>
