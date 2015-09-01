@@ -32,6 +32,7 @@ class GameViewController: UIViewController, UIGestureRecognizerDelegate, Gametri
         
     }
     
+    
     @IBAction func didPan(sender: UIPanGestureRecognizer) {
         let currentPoint = sender.locationInView(self.view).x - self.view.center.x
         
@@ -50,9 +51,9 @@ class GameViewController: UIViewController, UIGestureRecognizerDelegate, Gametri
         }
     }
     
-    @IBAction func didSwipe(sender: UISwipeGestureRecognizer) {
+    //@IBAction func didSwipe(sender: UISwipeGestureRecognizer) {
 
-    }
+    //}
     
     func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
